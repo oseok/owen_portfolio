@@ -1,0 +1,163 @@
+body {
+  background-color: white;
+  align-self: auto;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 1px;
+  width: 1180px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/* -------------------- 네비게이션 영역 -------------------- */
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.logo_box {
+  display: inline-block;
+  padding: 0px 32px;
+  padding-top: 17px;
+}
+
+.logo {
+  border-radius: 10px;
+}
+
+.navR {
+  float: right;
+  padding: 0px 0px;
+}
+
+.navR a {
+  float: left;
+  display: block;
+  color: rgb(105, 105, 105);
+  text-align: center;
+  padding: 28px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: rgb(36, 35, 141);
+}
+
+/* -------------------- 네비게이션 영역 종료 -------------------- */
+
+.about_container1 {
+  width: 100%;
+  height: 650px;
+}
+
+.container_owenseok {
+  display: inline-block;
+  position: absolute;
+  width: 484px;
+}
+
+.owenpicture {
+  display: inline-block;
+  padding: 90px 77px 77px 77px;
+  margin: 0 auto;
+}
+
+.introduction {
+  display: inline-block;
+  /* line-height: 16px; */
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-left: 40px;
+}
+
+.hello {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#textfill {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.8em;
+  padding-top: 20px;
+}
+
+.email_btn {
+  width: 240px;
+  height: 60px;
+  background-color: rgb(36, 35, 141);
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  align-items: center;
+  padding: 0px 20px;
+  cursor: pointer;
+  border-style: none;
+}
+
+.email_btn:hover {
+  font-size: 0;
+}
+
+.email_btn:hover::after {
+  content: attr(data-hover);
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+}
+
+/* -------------------- 두번째 섹션 영역 시작 -------------------- */
+
+.second_container {
+  margin: 0px;
+  margin-top: 20px;
+  width: 100%;
+  height: 750px;
+  background-color: rgb(249, 252, 253);
+}
+
+.second_container_title {
+  text-align: center;
+  padding-top: 48px;
+}
+
+.company_name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(130, 133, 138);
+  margin-top: -10px;
+}
+
+/* -------------------- 두번째 섹션 영역 종료 -------------------- */
+
+.footer {
+  width: 100%;
+  height: 70px;
+  color: rgb(105, 105, 105);
+}
+
+.copyright {
+  float: right;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+/*  기본 display: block; */
+/*  display: inline-block; */
+/*   이거는 정렬을 옆으로 할 수 있으며 넓이 값도 적용이 가능하다. */
+/*   기본 display: inline; */
+/*   인라인은 너비값이 적용되지 않는다 */
